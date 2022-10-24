@@ -1,0 +1,7 @@
+Arboles
+Hojas
+Ramas
+Tallo
+Fruto
+Flor
+Hojas x2
