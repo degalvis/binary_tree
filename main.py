@@ -1,5 +1,8 @@
 
 
+from re import I
+
+
 class Nodo:
     def __init__(self, data):
         self.left = None
@@ -39,11 +42,18 @@ class Nodo:
       return res
 
 f = open("archivo.txt", "r")
-encabezador = Nodo("Indice libro")
 
+#árbol term
+terminos = []
 for x in f:
-    encabezador.insert(x)
+    if (x[0]=="m"):
+     word = x[1:8]
+     terminos.append(word)
+     
+cabezat = Nodo((terminos[0])[1:8])
+for i in range(1, len(terminos)):
+    cabezat.insert(str(i))
 
-print(encabezador.inorderTraversal(encabezador))
-
+print(cabezat.inorderTraversal(cabezat))
+print(terminos)
 
