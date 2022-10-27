@@ -1,7 +1,14 @@
-Arboles
-Hojas
-Ramas
-Tallo
-Fruto
-Flor
-Hojas x2
+Indice estructura de datos I
+
+mListas
+ nDoblementeEnlazadas
+ nCirculares
+ nLinealesSimples
+mGrafos
+ nDirigidos
+ nNoDirigidos
+ nMatricesDeAdyacencia
+mRecurrencias
+ nO(n)
+ nO(k)
+ nt(n)
