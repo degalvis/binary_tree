@@ -1,12 +1,16 @@
 from Arbol import Arbol
+    
+f = open("Archivo.txt")
 
-def main():
-    f = open("archivo.txt", "r")
+encabezador = Arbol("Indice libro")
 
-    encabezador = Arbol("Indice libro")
 
-    with f as file:
-        for line in file:
-            encabezador.insert(line)
-            
+for line in f:
+    encabezador.insert(line)
+    
 
+print("Hola Mundo")
+
+print(encabezador)
+
+        
