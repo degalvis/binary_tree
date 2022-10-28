@@ -6,3 +6,17 @@ ssuculenta85662
 sbonsai89963
 scactus55632
 mflorecitas6563
+Indice estructura de datos I
+
+mListas
+ nDoblementeEnlazadas
+ nCirculares
+ nLinealesSimples
+mGrafos
+ nDirigidos
+ nNoDirigidos
+ nMatricesDeAdyacencia
+mRecurrencias
+ nO(n)
+ nO(k)
+ nt(n)
