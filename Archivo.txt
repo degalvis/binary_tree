@@ -1,14 +1,12 @@
-Indice estructura de datos I
-
-mListas
- nDoblementeEnlazadas
- nCirculares
- nLinealesSimples
-mGrafos
- nDirigidos
- nNoDirigidos
- nMatricesDeAdyacencia
-mRecurrencias
- nO(n)
- nO(k)
- nt(n)
+mListas23435
+nDoblementeEnlazadas23435
+nCirculares23435
+nLinealesSimples23435
+mGrafos23435
+nDirigidos23435
+nNoDirigidos23435
+nMatricesDeAdyacencia23435
+mRecurrencias23435
+nO(n)23435
+nO(k)23435
+nT(n)23435

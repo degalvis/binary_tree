@@ -1,24 +1,37 @@
-from queue import Empty
-from nodo import Nodo 
+from Nodo import Nodo
+
 
 class Arbol:
-    def __init__(self, dato):
-        self.raiz = Nodo(dato)
-
-    def insert(self, data):
-        if Nodo.data != Empty:
-            if data < self.data:
-                if self.left == None:
-                    self.left = Nodo(data)
-                else:
-                    self.left.insert(data)
-            elif data > self.data:
-                if self.right == None:
-                        self.right = Nodo(data)
-                else:
-                        self.right.insert(data)
+    def __init__(self, data):
+        self.raiz = Nodo(data)
+        
+    def insertarRecursivo(self, nodo, data):
+        
+        if self.raiz == None:
+            self.raiz = Nodo(data)
         else:
-            self.data = data
-            
+            if data > nodo.data:
+                if nodo.der == None:
+                    nodo.der = Nodo(data)
+                else:
+                    self.insertarRecursivo(nodo.der, data)
+            elif data < nodo.data:
+                if nodo.izq == None:
+                    nodo.izq = Nodo(data)
+                else:
+                    self.insertarRecursivo(nodo.izq, data)
+            else:
+                return
     
+    def insertar(self, data):
+        self.insertarRecursivo(self.raiz, data)
+        
+        
+    def imprimirRecursivo(self, nodo):
+        if nodo != None:
+            self.imprimirRecursivo(nodo.izq)
+            print(nodo.data, end = ", ")
+            self.imprimirRecursivo(nodo.der)
     
+    def imprimir(self):
+        self.imprimirRecursivo(self.raiz)
