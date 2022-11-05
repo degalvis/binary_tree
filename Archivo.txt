@@ -1,12 +1,22 @@
-mListas23435
-nDoblementeEnlazadas234356
-nCirculares234357
-nLinealesSimples234358
-mGrafos234359
-nDirigidos2343510
-nNoDirigidos2343511
-nMatricesDeAdyacencia2343512
-mRecurrencias2343513
-nO(n)2343514
-nO(k)2343515
-nT(n)2343516
+marboles52705
+sfrutos2265126
+stallos223623
+mplantitas756336
+ssuculenta85662
+sbonsai89963
+scactus55632
+mflorecitas6563
+Indice estructura de datos I
+
+mListas
+ nDoblementeEnlazadas
+ nCirculares
+ nLinealesSimples
+mGrafos
+ nDirigidos
+ nNoDirigidos
+ nMatricesDeAdyacencia
+mRecurrencias
+ nO(n)
+ nO(k)
+ nt(n)
