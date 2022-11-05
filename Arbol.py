@@ -58,8 +58,8 @@ class Arbol:
     def imprimirRecursivo(self, nodo):
         if nodo != None:
             self.imprimirRecursivo(nodo.izq)
-            self.imprimirSubTRecursivo(nodo.subT)
             print(nodo.data, end =  ",")
+            self.imprimirSubTRecursivo(nodo.subT)
             print(nodo.subT, end = ",")
             self.imprimirRecursivo(nodo.der)
             self.imprimirRecursivo(nodo.subT)
